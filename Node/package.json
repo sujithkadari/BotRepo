@@ -1,0 +1,24 @@
+{
+  "name": "helloworld",
+  "version": "0.1.0",
+  "description": "Hello world Bot",
+  "main": "hello-world-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
+  },
+  "repository": "BotRepo",
+  "keywords": [
+    "node.js",
+    "bot",
+    "test",
+    "eclipse",
+    "world"
+  ],
+  "author": "sujith",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "botbuilder": "^3.2.3",
+    "restify": "^4.1.1"
+  }
+}
