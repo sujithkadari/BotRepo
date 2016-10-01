@@ -8,7 +8,7 @@ server.listen(process.env.PORT || 3000, function()
    console.log('%s listening to %s', server.name, server.url); 
 });
 
-// Create chat bot
+// Create chat bot ok
 var connector = new builder.ChatConnector
 ({ appId: 'YourAppId', appPassword: 'YourAppPassword' }); 
 var bot = new builder.UniversalBot(connector);
